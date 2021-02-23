@@ -184,4 +184,9 @@
 	// Expected config version. Please update this option in config.php
 	// if necessary (after migrating all new options from this file).
 
+	define('_SKIP_SELF_URL_PATH_CHECKS', true);
+	//Pour erreur : Startup failed Tiny Tiny RSS was unable to start properly.
+	//This usually means a misconfiguration or an incomplete upgrade. Please fix errors indicated by the following messages:
+	//Please set SELF_URL_PATH to the correct value detected for your server: https://{address}/tt-rss/
+
 	// vim:ft=php
