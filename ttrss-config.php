@@ -23,7 +23,7 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	//define('SELF_URL_PATH', 'https://ttrssemi.herokuapp.com/tt-rss');
+	define('SELF_URL_PATH', 'https://'.$_SERVER['SERVER_NAME'].'/');
 	// This should be set to a fully qualified URL used to access
 	// your tt-rss instance over the net.
 	// The value should be a constant string literal. Please don't use
@@ -183,10 +183,5 @@
 	define('CONFIG_VERSION', 26);
 	// Expected config version. Please update this option in config.php
 	// if necessary (after migrating all new options from this file).
-
-	define('_SKIP_SELF_URL_PATH_CHECKS', true);
-	//Pour erreur : Startup failed Tiny Tiny RSS was unable to start properly.
-	//This usually means a misconfiguration or an incomplete upgrade. Please fix errors indicated by the following messages:
-	//Please set SELF_URL_PATH to the correct value detected for your server: https://{address}/tt-rss/
 
 	// vim:ft=php
