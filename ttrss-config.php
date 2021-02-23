@@ -23,7 +23,10 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	define('SELF_URL_PATH', 'https://'.$_SERVER['SERVER_NAME'].'/');
+	define('_SKIP_SELF_URL_PATH_CHECKS', true);
+	//pour erreur SELF URL
+	
+	//define('SELF_URL_PATH', 'https://'.$_SERVER['SERVER_NAME'].'/');
 	// This should be set to a fully qualified URL used to access
 	// your tt-rss instance over the net.
 	// The value should be a constant string literal. Please don't use
